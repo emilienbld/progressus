@@ -15,7 +15,7 @@ pipeline{
     stage('Checkout SCM'){
       steps{
         git (
-          branch: 'main',
+          branch: 'master',
           url: 'https://github.com/emilienbld/progressus.git'
         )
       }
