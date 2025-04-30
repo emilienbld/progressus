@@ -1,7 +1,7 @@
 pipeline{
   agent any
   environment{
-    IMG_NAME = 'jenkinsnginx'
+    IMG_NAME = 'jenkins'
     DOCKER_REPO = 'myimage_nginx'
   }
   
